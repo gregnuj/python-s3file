@@ -1,9 +1,11 @@
 # python-s3file
 upload or download to s3 bucket using python
 
-# git repo
+# clone repo
+```
 git clone https://github.com/gregnuj/python-s3file.git
 cd python-s3file
+```
 
 ## use providing bucket info via command line
 
