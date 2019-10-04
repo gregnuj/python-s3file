@@ -22,9 +22,6 @@ def s3Upload(local_file, bucket, s3AccessKey, s3SecretKey):
         s3.upload_file(local_file, bucket, s3_file)
         print("Upload Successful")
         return True
-    except FileNotFoundError:
-        print("The file was not found")
-        return False
     except NoCredentialsError:
         print("Credentials not available")
         return False
